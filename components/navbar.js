@@ -1,5 +1,5 @@
 "use client";
-// Tempel ke: file navbar.js di folder yang sama dengan Layout (import Navbar from './navbar')
+
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -20,7 +20,6 @@ export default function Navbar() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
