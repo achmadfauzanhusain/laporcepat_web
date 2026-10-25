@@ -1,40 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# LAPORCEPAT
 
-## Getting Started
+Website untuk Pemerintah Kabupaten Bandung yang memerlukan mekanisme digital agar masyarakat dapat menyampaikan pengaduan fasilitas umum secara mudah sekaligus memungkinkan pemerintah melakukan pencatatan, verifikasi, disposisi, pemantauan, dan penyelesaian pengaduan secara terstruktur.
 
-First, run the development server:
+![Screenshot](screenshots/home.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Fitur
+- Registrasi dan Login pengguna
+- Formulir Pengaduan
+- Pelacakan Laporan Pengaduan (pengguna & petugas)
+- Dashboard Petugas
+- Dashboard SLA
+- Manajemen Data (untuk admin)
+- [Other feature]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+- Framework: Next.js
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Getting Started <in_construction>
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Prerequisites
+- Node.js 20+
+- MongoDB running locally
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### Installation
+git clone <repo-url>
+cd project-folder
+npm install
+cp .env.example .env
+npm start
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Then open http://localhost:3000
 
-## Learn More
+### Demo account <in_construction>
+- Email: demo@example.com
+- Password: demo1234
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure <in_construction>
+src/
+  routes/   - API endpoints
+  views/    - pages
+  models/   - database schemas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Known Issues <in_construction>
+- [Anything unfinished or buggy]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## Credits <in_construction>
+- Libraries, tutorials, or tools used
