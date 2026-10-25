@@ -1,0 +1,95 @@
+{
+  "ringkasan": [
+    {
+      "label": "Kepatuhan SLA",
+      "nilai": "91%",
+      "ket": "+2% dari bulan lalu",
+      "naik": true
+    },
+    {
+      "label": "Rata-rata waktu respons",
+      "nilai": "2,4 hari",
+      "ket": "-0,3 hari dari bulan lalu",
+      "naik": true
+    },
+    {
+      "label": "Rata-rata waktu penyelesaian",
+      "nilai": "5,8 hari",
+      "ket": "+0,4 hari dari bulan lalu",
+      "naik": false
+    },
+    {
+      "label": "Melewati batas SLA",
+      "nilai": "14",
+      "ket": "dari 156 pengaduan aktif",
+      "naik": false
+    }
+  ],
+
+  "tren": [
+    { "bulan": "Mei", "nilai": 84 },
+    { "bulan": "Jun", "nilai": 86 },
+    { "bulan": "Jul", "nilai": 85 },
+    { "bulan": "Agu", "nilai": 88 },
+    { "bulan": "Sep", "nilai": 89 },
+    { "bulan": "Okt", "nilai": 91 }
+  ],
+
+  "perOpd": [
+    { "opd": "Dinas Lingkungan Hidup", "total": 48, "tepat": 46, "rata": 4.1 },
+    { "opd": "Dinas Kesehatan", "total": 21, "tepat": 19, "rata": 4.9 },
+    { "opd": "Dinas Pendidikan", "total": 26, "tepat": 23, "rata": 5.4 },
+    { "opd": "Dinas PUPR", "total": 143, "tepat": 126, "rata": 6.7 },
+    { "opd": "Dinas Perhubungan", "total": 62, "tepat": 51, "rata": 6.2 }
+  ],
+
+  "terlambat": [
+    {
+      "id": "PGD-2610-0131",
+      "judul": "Atap posyandu bocor saat hujan",
+      "opd": "Dinas Kesehatan",
+      "telat": 2
+    },
+    {
+      "id": "PGD-2610-0136",
+      "judul": "Rambu lalu lintas roboh di pertigaan",
+      "opd": "Dinas Perhubungan",
+      "telat": 1
+    },
+    {
+      "id": "PGD-2609-0098",
+      "judul": "Jembatan penyeberangan retak",
+      "opd": "Dinas PUPR",
+      "telat": 5
+    },
+    {
+      "id": "PGD-2609-0087",
+      "judul": "Drainase meluap di pasar",
+      "opd": "Dinas PUPR",
+      "telat": 3
+    }
+  ],
+
+  "slaAturan": [
+    {
+      "kategori": "Jalan & jembatan",
+      "respons": "2 hari",
+      "selesai": "14 hari"
+    },
+    {
+      "kategori": "Penerangan jalan",
+      "respons": "1 hari",
+      "selesai": "7 hari"
+    },
+    {
+      "kategori": "Drainase & banjir",
+      "respons": "1 hari",
+      "selesai": "7 hari"
+    },
+    {
+      "kategori": "Taman & ruang terbuka",
+      "respons": "3 hari",
+      "selesai": "10 hari"
+    }
+  ]
+}
